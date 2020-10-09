@@ -1,0 +1,13 @@
+#!/bin/sh
+
+DIR=./myworking/
+
+rm -rf ${DIR}/active/*
+rm -f ${DIR}/destor.stat
+rm -f ${DIR}/recipes/backupversion.count
+
+mkdir -p ${DIR}/active/
+mkdir -p ${DIR}/active/recipes/
+mkdir -p ${DIR}/active/activePool/
+mkdir -p ${DIR}/recipes/
+mkdir -p ${DIR}/index/
